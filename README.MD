@@ -1,17 +1,23 @@
-Failed, because unlike images, videos use compression algorithms to compress each frame in the video. In opencv, it is not possible to use 
-a lossless compression. The lossless compression results in 100's of mbs of file in 4-5 seconds video, which is really hard to read let alone write to!
-The lossless compression is stegnographically unreadable for some reason, though my code is working to hande that! :( 
+Works like charm. The video is loaded fast. See images in issues section! 
 
 <br />
 
 #
+![encrypting images](https://user-images.githubusercontent.com/24922775/44160376-df536f00-a0d7-11e8-90c9-b79871b8d8a3.png)
+<br/>
+![imagebeingencrypted](https://user-images.githubusercontent.com/24922775/44160375-debad880-a0d7-11e8-88f1-77cdf968c961.jpg)
+<br/>
+![outputstodecryptdata](https://user-images.githubusercontent.com/24922775/44160370-de224200-a0d7-11e8-90e3-9c3f8a8446f1.png)
+<br/>
+![codesnapshot](https://user-images.githubusercontent.com/24922775/44160371-de224200-a0d7-11e8-8937-0a15d0972605.png)
+<br/>
+![afterencrpytion](https://user-images.githubusercontent.com/24922775/44160372-debad880-a0d7-11e8-9944-a8ec946cd750.png)
+<br/>
+![result](https://user-images.githubusercontent.com/24922775/44160377-df536f00-a0d7-11e8-87e8-bf9f486109f7.png)
 
-Lets discuss with some one who is expert in video compression. If you are one, please do talk. I am looking forward to comments in issues section of this repo. :'(
-Image compression works. Video encryption works as well. The problem is writing that compression and then rereading it correctly. It is 
-tough to implement everything together.
 
 <br/>
 
 #
 
-### This repo's code is complete, the opencv cv2.VideoWriter is not equiped to handeling the video stenography( hidding data in videos).
+### One can load 3-4 books into a single video of 10 mb. One can load ~2.5 mbs[~2-3 books, several thousand words] of data into ~10 mb video. 
